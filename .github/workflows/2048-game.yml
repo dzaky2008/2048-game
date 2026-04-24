@@ -34,4 +34,4 @@ jobs:
       - name: stop and remove existing container
         run: docker-compose down
       - name: start container
-        run: docker compose up -d
+        run: docker-compose up -d
