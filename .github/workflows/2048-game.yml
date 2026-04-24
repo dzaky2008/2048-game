@@ -5,7 +5,7 @@ on:
     branches:
       - main
 env:
-  IMAGE_NAME: "${{ secrets.DOCKER_USER }}/2048-DzakyRiffattayaAlfawwaz"
+  IMAGE_NAME: "${{ secrets.DOCKER_USER }}/2048-dzakyriffattayaalfawwaz"
   DOCKER_USER: "${{ secrets.DOCKER_USER }}"
 jobs:
   build-push-image:
